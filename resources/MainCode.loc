@@ -1,0 +1,1 @@
+addcontact.btn = {\"locator\":\"id=com.example.android.contactmanager:id/addContactButton\",\"desc\":\"Id Locator\"}

@@ -1,0 +1,300 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "openAddContactScreen",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 31 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 15 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 22 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 23 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 25 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 20 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 19 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 19 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 20 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 20 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 17 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 24 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 35 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=name}"
+          ],
+          "result": "Locator Strategy 'name' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 17 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.101:5555, platform=LINUX, deviceUDID=192.168.119.101:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 64add65c-2eea-4412-9a61-11c646bfb98d\n*** Element info: {Using=name, value=Add Contact}",
+          "subLogs": [],
+          "duration": 18
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And generate random contact data",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And store into 'new.contact'",
+      "args": [
+        "[new.contact]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When fill contact details form with '${new.contact}'",
+      "args": [
+        "[${new.contact}]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And click on 'save button'",
+      "args": [
+        "[save button]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then verify contact '${new.contact}' is displayed in list",
+      "args": [
+        "[${new.contact}]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user opens contact manager",
+      "type": "TestStepPass",
+      "duration": 13,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And open add contact screen",
+      "type": "TestStepFail",
+      "screenshot": "../img/Add New Contact_2m1czesg68d537550.png",
+      "duration": 33512,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 20 seconds: Wait time out for Add COntact Button to be present\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And generate random contact data",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And store into 'new.contact'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When fill contact details form with '${new.contact}'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on 'save button'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify contact '${new.contact}' is displayed in list",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 20 seconds: Wait time out for Add COntact Button to be present\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: unknown\r\n\tat .And open add contact screen(scenarios/suite1.bdd:7)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForPresent(QAFExtendedWebElement.java:502)\r\n\tat com.example.android.contactmanager.pages.AddContactScreen.launchPage_aroundBody0(AddContactScreen.java:49)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.example.android.contactmanager.pages.AddContactScreen.launchPage(AddContactScreen.java:46)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\nCaused by: java.lang.NullPointerException\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:390)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByName(RemoteWebDriver.java:469)\r\n\tat org.openqa.selenium.By$ByName.findElements(By.java:295)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:351)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.isPresent(QAFExtendedWebElement.java:337)\r\n\tat com.qmetry.qaf.automation.ui.util.QAFWebElementExpectedConditions$2.apply(QAFWebElementExpectedConditions.java:55)\r\n\tat com.qmetry.qaf.automation.ui.util.QAFWebElementExpectedConditions$2.apply(QAFWebElementExpectedConditions.java:1)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForPresent(QAFExtendedWebElement.java:502)\r\n\tat com.example.android.contactmanager.pages.AddContactScreen.launchPage_aroundBody0(AddContactScreen.java:49)\r\n\tat com.example.android.contactmanager.pages.AddContactScreen$AjcClosure1.run(AddContactScreen.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.example.android.contactmanager.pages.AddContactScreen.launchPage(AddContactScreen.java:46)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.TestNG.privateMain(TestNG.java:1434)\r\n\tat org.testng.TestNG.main(TestNG.java:1403)\r\n"
+}

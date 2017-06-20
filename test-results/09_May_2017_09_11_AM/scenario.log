@@ -1,0 +1,22 @@
+09:12:03 scenario.file.loc[Ljava.lang.String;@37574691
+09:12:03 loading BDD file: D:\Projectsss\workspace\AppiumDemoContactManager\.\scenarios\suite1.bdd
+09:12:03 total test found: 1
+09:12:03 
+
+Executing scenario: Add New Contact - Add Contact And Verify
+09:12:03 pkg: com.qmetry.qaf.automation.step
+09:12:03 pkg: com.example.android.contactmanager
+09:12:03 Found duplicate step to load [] with [lower] prority then []
+09:12:03 Invoking Teststep: Given user opens contact manager
+09:12:03 Completed Teststep: Given user opens contact manager
+09:12:03 Invoking Teststep: And open add contact screen
+09:12:22 Completed Teststep: And open add contact screen
+09:12:22 Invoking Teststep: And generate random contact data
+09:12:22 Completed Teststep: And generate random contact data
+09:12:22 Invoking Teststep: And store into 'new.contact' with arguments: [new.contact]
+09:12:22 Completed Teststep: And store into 'new.contact' with arguments: [new.contact]
+09:12:22 Invoking Teststep: When fill contact details form with '${new.contact}' with arguments: [${new.contact}]
+09:12:49 Completed Teststep: When fill contact details form with '[email : rOYAc@infostretch.com,name : FZyRja,phone : (729) 922 0890]' with arguments: [${new.contact}]
+09:12:49 Invoking Teststep: And click on 'save button' with arguments: [save button]
+09:12:53 Completed Teststep: And click on 'save button' with arguments: [save button]
+09:12:53 Competed scenario: Add New Contact with status SUCESS

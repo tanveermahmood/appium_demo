@@ -1,0 +1,69 @@
+{
+  "reports": [
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/09_May_2017_09_11_AM/json",
+      "startTime": 1494301323266
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/09_May_2017_07_12_AM/json",
+      "startTime": 1494294147956
+    },
+    {
+      "name": "AppiumDemoContactManager.scenarios.suite1.bdd",
+      "dir": "test-results/09_May_2017_12_34_AM/json",
+      "startTime": 1494270290084
+    },
+    {
+      "name": "AppiumDemoContactManager.scenarios.suite1.bdd",
+      "dir": "test-results/08_May_2017_10_34_AM/json",
+      "startTime": 1494219880848
+    },
+    {
+      "name": "AppiumDemoContactManager.scenarios.suite1.bdd",
+      "dir": "test-results/08_May_2017_10_31_AM/json",
+      "startTime": 1494219679115
+    },
+    {
+      "name": "AppiumDemoContactManager.scenarios.suite1.bdd",
+      "dir": "test-results/08_May_2017_01_30_AM/json",
+      "startTime": 1494187203042
+    },
+    {
+      "name": "AppiumDemoContactManager.scenarios.suite1.bdd",
+      "dir": "test-results/08_May_2017_01_27_AM/json",
+      "startTime": 1494187030210
+    },
+    {
+      "name": "AppiumDemoContactManager.scenarios.suite1.bdd",
+      "dir": "test-results/08_May_2017_01_04_AM/json",
+      "startTime": 1494185648222
+    },
+    {
+      "name": "AppiumDemoContactManager.scenarios.suite1.bdd",
+      "dir": "test-results/08_May_2017_01_00_AM/json",
+      "startTime": 1494185437924
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/05_May_2017_07_03_PM/json",
+      "startTime": 1493991220802
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/05_May_2017_07_01_PM/json",
+      "startTime": 1493991096775
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/05_May_2017_06_58_PM/json",
+      "startTime": 1493990928724
+    },
+    {
+      "name": "AppiumDemoContactManager.scenarios.suite1.bdd",
+      "dir": "test-results/05_May_2017_06_56_PM/json",
+      "startTime": 1493990811747
+    }
+  ]
+}

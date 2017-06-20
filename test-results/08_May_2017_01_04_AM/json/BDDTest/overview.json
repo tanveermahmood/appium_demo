@@ -1,0 +1,74 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "appPackage": "com.example.android.contactmanager",
+      "deviceName": "192.168.119.101:5555",
+      "appActivity": "com.example.android.contactmanager.ContactManager",
+      "browser_name": "",
+      "appium-version": "1.2.3",
+      "newCommandTimeout": "120",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "javascriptEnabled": "true",
+      "driver.class": "io.appium.java_client.android.AndroidDriver",
+      "platformName": "Android",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "appPackage": "com.example.android.contactmanager",
+      "deviceScreenSize": "1080x1920",
+      "networkConnectionEnabled": "true",
+      "warnings": "{}",
+      "databaseEnabled": "false",
+      "deviceName": "192.168.119.101:5555",
+      "platform": "LINUX",
+      "deviceUDID": "192.168.119.101:5555",
+      "appActivity": "com.example.android.contactmanager.ContactManager",
+      "browser_name": "",
+      "desired": "{appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}",
+      "appium-version": "1.2.3",
+      "newCommandTimeout": "120",
+      "platformVersion": "5.0",
+      "webStorageEnabled": "false",
+      "locationContextEnabled": "false",
+      "automationName": "Appium",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "driver.class": "io.appium.java_client.android.AndroidDriver",
+      "deviceModel": "Google Nexus 5 - 5.0.0 - API 21 - 1080x1920",
+      "platformName": "Android",
+      "deviceManufacturer": "unknown",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "11",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "17-Apr-2017 02:20:41"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "scenario.file.loc": "scenarios/suite1.bdd",
+      "baseurl": "http://localhost:4723/wd/hub"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_111",
+      "os.arch": "amd64",
+      "host": "ICPL11948",
+      "os.name": "Windows 8",
+      "user.name": "harshit.trivedi",
+      "os.version": "6.2"
+    }
+  },
+  "startTime": 1494185685334,
+  "endTime": 1494185688036
+}

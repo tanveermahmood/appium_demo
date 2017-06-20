@@ -1,0 +1,7 @@
+email-address\ text\ box = {\"locator\":\"xpath=//*[@resource-id=\\\"com.example.android.contactmanager:id/contactEmailEditText\\\"]\",\"desc\":\"email-address text box\"}
+email-address\ text\ box = {\"locator\":\"xpath=//*[@resource-id=\\\"com.example.android.contactmanager:id/contactEmailEditText\\\"]\",\"desc\":\"email-address text box\"}
+save\ button = {\"locator\":\"accessibility id=Save\",\"desc\":\"Save Button\"}
+phone\ number\ text\ box = {\"locator\":\"xpath=//*[@resource-id='com.example.android.contactmanager:id/contactPhoneEditText']\",\"desc\":\"phone number text box\"}
+phone\ number\ text\ box = {\"locator\":\"xpath=//*[@resource-id='com.example.android.contactmanager:id/contactPhoneEditText']\",\"desc\":\"phone number text box\"}
+first\ name\ text\ box = {\"locator\":\"xpath=//*[@resource-id='com.example.android.contactmanager:id/contactNameEditText']\",\"desc\":\"first name text box\"}
+first\ name\ text\ box = {\"locator\":\"xpath=//*[@resource-id='com.example.android.contactmanager:id/contactNameEditText']\",\"desc\":\"first name text box\"}

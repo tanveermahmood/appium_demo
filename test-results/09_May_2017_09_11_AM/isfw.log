@@ -1,0 +1,832 @@
+[main] 09:12:02,684 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 09:12:02,690 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 09:12:02,691 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 09:12:02,691 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 09:12:02,694 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 09:12:02,832 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=11, qaf-Version=2.1, qaf-Build-Time=17-Apr-2017 02:20:41}
+[main] 09:12:02,845 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\Projectsss\workspace\AppiumDemoContactManager\resources. Found property files to load: 2
+[main] 09:12:02,865 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 09:12:02,866 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 09:12:02,866 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 09:12:02,866 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.home
+[main] 09:12:02,866 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.type.testRunner
+[main] 09:12:02,866 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.testRunner
+[main] 09:12:02,866 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.default-target
+[main] 09:12:02,866 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.name
+[main] 09:12:02,866 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.invoked-targets
+[main] 09:12:02,866 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file
+[main] 09:12:02,867 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.TestAutomation
+[main] 09:12:02,867 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.type.TestAutomation
+[main] 09:12:02,867 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.version
+[main] 09:12:02,867 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 09:12:02,867 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 09:12:02,867 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 09:12:02,867 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 09:12:02,868 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 09:12:02,868 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 09:12:02,868 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 09:12:02,868 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 09:12:02,868 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 09:12:02,868 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 09:12:02,868 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 09:12:02,868 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 09:12:02,869 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 09:12:02,869 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 09:12:02,869 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 09:12:02,870 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 09:12:02,870 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 09:12:02,870 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 09:12:02,870 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 09:12:02,870 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.title
+[main] 09:12:02,870 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 09:12:02,870 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 09:12:02,876 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: D:\Projectsss\workspace\AppiumDemoContactManager\resources. Found property files to load: 1
+[main] 09:12:02,880 DEBUG [org.apache.commons.configuration.ConfigurationUtils] ConfigurationUtils.locate(): base is null, name is null
+[main] 09:12:03,037 DEBUG [org.apache.commons.configuration.ConfigurationUtils] ConfigurationUtils.locate(): base is D:\Projectsss\workspace\AppiumDemoContactManager\resources, name is testdata.xml
+[main] 09:12:03,039 DEBUG [org.apache.commons.configuration.DefaultFileSystem] Could not locate file testdata.xml at D:\Projectsss\workspace\AppiumDemoContactManager\resources: unknown protocol: d
+[main] 09:12:03,039 DEBUG [org.apache.commons.configuration.ConfigurationUtils] Loading configuration from the path D:\Projectsss\workspace\AppiumDemoContactManager\resources\testdata.xml
+[main] 09:12:03,046 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.name
+[main] 09:12:03,046 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.version
+[main] 09:12:03,046 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:os.arch
+[main] 09:12:03,046 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.home
+[main] 09:12:03,046 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.type.testRunner
+[main] 09:12:03,046 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.testRunner
+[main] 09:12:03,047 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.default-target
+[main] 09:12:03,047 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.name
+[main] 09:12:03,047 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.project.invoked-targets
+[main] 09:12:03,047 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file
+[main] 09:12:03,047 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.TestAutomation
+[main] 09:12:03,047 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.file.type.TestAutomation
+[main] 09:12:03,047 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:ant.version
+[main] 09:12:03,047 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.name
+[main] 09:12:03,047 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.language
+[main] 09:12:03,048 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.timezone
+[main] 09:12:03,048 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.country
+[main] 09:12:03,048 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.variant
+[main] 09:12:03,048 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.script
+[main] 09:12:03,048 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.home
+[main] 09:12:03,050 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:user.dir
+[main] 09:12:03,050 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:log4j.configuration
+[main] 09:12:03,050 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding.pkg
+[main] 09:12:03,050 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.separator
+[main] 09:12:03,050 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:file.encoding
+[main] 09:12:03,050 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:test.results.dir
+[main] 09:12:03,051 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.relative.path
+[main] 09:12:03,051 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:selenium.screenshots.dir
+[main] 09:12:03,051 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:awt.toolkit
+[main] 09:12:03,051 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:outputDir
+[main] 09:12:03,051 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.dir
+[main] 09:12:03,051 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:json.report.root.dir
+[main] 09:12:03,052 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.title
+[main] 09:12:03,052 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:org.uncommons.reportng.escape-output
+[main] 09:12:03,052 DEBUG [com.qmetry.qaf.automation.util.PropertyUtil] clear system property ignored:line.separator
+[main] 09:12:03,325 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 09:12:03,329 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 09:12:03,330 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 09:12:03,330 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 09:12:03,332 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.ui is test:false
+[main] 09:12:03,332 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 09:12:03,333 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 09:12:03,337 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 09:12:03,338 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.ui is test:false
+[main] 09:12:03,338 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 09:12:03,345 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 09:12:03,345 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 09:12:03,345 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 09:12:03,345 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 09:12:03,345 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: Add New Contact
+[main] 09:12:03,626 INFO  [com.qmetry.qaf.automation.core.QAFTestBase] Initializing Driver...browser_str:appiumDriver,base_url:http://localhost:4723/wd/hub,sel_server:localhost,port:4723
+[main] 09:12:03,647 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] Driver: appiumDriver
+[Forwarding newSession on session null to remote] 09:12:04,114 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding newSession on session null to remote] 09:12:04,127 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding newSession on session null to remote] 09:12:04,129 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding newSession on session null to remote] 09:12:04,164 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding newSession on session null to remote] 09:12:04,165 DEBUG [org.apache.http.impl.execchain.MainClientExec] Opening connection {}->http://localhost:4723
+[Forwarding newSession on session null to remote] 09:12:04,182 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connecting to localhost/127.0.0.1:4723
+[Forwarding newSession on session null to remote] 09:12:04,184 DEBUG [org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] Connection established 127.0.0.1:57574<->127.0.0.1:4723
+[Forwarding newSession on session null to remote] 09:12:04,185 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding newSession on session null to remote] 09:12:04,185 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session HTTP/1.1
+[Forwarding newSession on session null to remote] 09:12:04,185 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 09:12:04,186 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding newSession on session null to remote] 09:12:04,188 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+[Forwarding newSession on session null to remote] 09:12:04,189 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 09:12:04,189 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 435
+[Forwarding newSession on session null to remote] 09:12:04,189 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding newSession on session null to remote] 09:12:04,189 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding newSession on session null to remote] 09:12:04,189 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding newSession on session null to remote] 09:12:04,189 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding newSession on session null to remote] 09:12:04,189 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:04,190 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:04,190 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 435[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:04,190 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:04,190 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:04,190 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:04,190 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:04,190 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:04,191 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"desiredCapabilities":{"appPackage":"com.example.android.contactmanager","deviceName":"192.168.119.101:5555","appActivity":"com.example.android.contactmanager.ContactManager","browser_name":"","appium-version":"1.2.3","newCommandTimeout":"120","automationName":"Appium","takesScreenshot":true,"javascriptEnabled":"true","driver.class":"io.appium.java_client.android.AndroidDriver","platformName":"Android","cssSelectorsEnabled":true}}"
+[Forwarding newSession on session null to remote] 09:12:14,069 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:14,069 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:14,069 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:14,069 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:14,069 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:14,069 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:14,069 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:14,069 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 1229[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:14,069 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"4cd-3JScdtVC+gqzRqL0B6vk4v9x/xQ"[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:14,070 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Tue, 09 May 2017 03:42:14 GMT[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:14,070 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:14,070 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding newSession on session null to remote] 09:12:14,070 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":"true","databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.example.android.contactmanager","deviceName":"192.168.119.101:5555","appActivity":"com.example.android.contactmanager.ContactManager","browser_name":"","appium-version":"1.2.3","newCommandTimeout":120,"automationName":"Appium","takesScreenshot":true,"javascriptEnabled":"true","driver.class":"io.appium.java_client.android.AndroidDriver","platformName":"Android","cssSelectorsEnabled":true},"appPackage":"com.example.android.contactmanager","deviceName":"192.168.119.101:5555","appActivity":"com.example.android.contactmanager.ContactManager","browser_name":"","appium-version":"1.2.3","newCommandTimeout":120,"automationName":"Appium","driver.class":"io.appium.java_client.android.AndroidDriver","platformName":"Android","cssSelectorsEnabled":true,"deviceUDID":"192.168.119.101:5555","platformVersion":"5.0","deviceScreenSize":"1080x1920","deviceModel":"Google Nexus 5 - 5.0.0 - API 21 - 1080x1920","deviceManufacturer":"unknown"},"sessionId":"d5e515a7-89d2-45ea-ad9b-5e1979c1be7f"}"
+[Forwarding newSession on session null to remote] 09:12:14,081 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding newSession on session null to remote] 09:12:14,081 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding newSession on session null to remote] 09:12:14,081 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding newSession on session null to remote] 09:12:14,081 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding newSession on session null to remote] 09:12:14,081 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding newSession on session null to remote] 09:12:14,081 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding newSession on session null to remote] 09:12:14,081 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding newSession on session null to remote] 09:12:14,082 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 1229
+[Forwarding newSession on session null to remote] 09:12:14,082 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"4cd-3JScdtVC+gqzRqL0B6vk4v9x/xQ"
+[Forwarding newSession on session null to remote] 09:12:14,082 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Tue, 09 May 2017 03:42:14 GMT
+[Forwarding newSession on session null to remote] 09:12:14,082 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding newSession on session null to remote] 09:12:14,093 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding newSession on session null to remote] 09:12:14,101 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding newSession on session null to remote] 09:12:14,101 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 09:12:17,142 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"using":"accessibility id","value":"Add Contact"}
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,143 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,144 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,144 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,146 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,146 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,146 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,148 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,148 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,148 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/elements HTTP/1.1
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,148 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,148 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,148 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/elements HTTP/1.1
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,148 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,148 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 50
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,148 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,148 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,148 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,149 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,149 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/elements HTTP/1.1[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,149 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,149 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 50[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,149 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,149 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,149 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,149 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,149 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,149 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"Add Contact","using":"accessibility id"}"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,185 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,185 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,185 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,185 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,185 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 89[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"59-eyehN6CmU3ZmOAj2oCUkWL7fYjs"[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Tue, 09 May 2017 03:42:17 GMT[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,186 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":[{"ELEMENT":"1"}],"sessionId":"d5e515a7-89d2-45ea-ad9b-5e1979c1be7f"}"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,186 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,187 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,187 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,187 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,187 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,187 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,187 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,187 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 89
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,187 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"59-eyehN6CmU3ZmOAj2oCUkWL7fYjs"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,187 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Tue, 09 May 2017 03:42:17 GMT
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,187 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,187 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,188 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,188 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 09:12:17,194 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=Add Contact, using=accessibility id}] Result: [id: 1]
+[main] 09:12:17,197 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"using":"accessibility id","value":"Add Contact"}
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,199 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,199 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,199 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,199 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,199 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,201 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,201 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,201 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/elements HTTP/1.1
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,201 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,201 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,201 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/elements HTTP/1.1
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,201 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,201 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 50
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,201 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,201 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,201 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,201 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,202 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/elements HTTP/1.1[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,202 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,202 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 50[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,202 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,202 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,202 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,202 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,202 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,202 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"Add Contact","using":"accessibility id"}"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,227 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,227 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,227 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,228 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,228 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,228 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,228 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,228 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 89[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,228 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"59-H93sOfSWltLiIYaB8uBgci++91s"[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,228 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Tue, 09 May 2017 03:42:17 GMT[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,228 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,228 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,228 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":[{"ELEMENT":"2"}],"sessionId":"d5e515a7-89d2-45ea-ad9b-5e1979c1be7f"}"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,229 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,229 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,229 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,229 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,229 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,229 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,229 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,229 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 89
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,229 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"59-H93sOfSWltLiIYaB8uBgci++91s"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,229 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Tue, 09 May 2017 03:42:17 GMT
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,229 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,229 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,230 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,230 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 09:12:17,231 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=Add Contact, using=accessibility id}] Result: [id: 2]
+[main] 09:12:17,232 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: [unknown locator] parameters: {"id":"2"}
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,234 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,234 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,234 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,234 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,234 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/2/click HTTP/1.1
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/2/click HTTP/1.1
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 10
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/2/click HTTP/1.1[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 10[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,236 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,237 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,237 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,237 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:17,237 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"id":"2"}"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 76[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"4c-IMFp5YZtMr4waqHdsf3pKkUy/OU"[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Tue, 09 May 2017 03:42:18 GMT[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":true,"sessionId":"d5e515a7-89d2-45ea-ad9b-5e1979c1be7f"}"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,136 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,136 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,136 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,136 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,136 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,137 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,138 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,138 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 76
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,138 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"4c-IMFp5YZtMr4waqHdsf3pKkUy/OU"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,138 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Tue, 09 May 2017 03:42:18 GMT
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,138 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,138 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,140 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:18,140 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 09:12:18,141 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: [unknown locator] param-2: {"id":"2"}] Result: clickElement:true
+[main] 09:12:22,151 DEBUG [com.example.android.contactmanager.beans.ContactBean] NAME :: email
+[main] 09:12:22,156 DEBUG [com.example.android.contactmanager.beans.ContactBean] NAME :: name
+[main] 09:12:22,156 DEBUG [com.example.android.contactmanager.beans.ContactBean] NAME :: phone
+[main] 09:12:26,192 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"xpath","value":"//*[@resource-id='com.example.android.contactmanager:id/contactNameEditText']"}
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,199 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,200 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,201 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,202 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,202 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,202 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,205 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,205 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,206 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element HTTP/1.1
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,206 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,206 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,206 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element HTTP/1.1
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,208 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,208 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 105
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,208 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,208 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,209 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,209 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,209 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,209 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,210 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 105[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,210 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,210 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,210 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,211 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,211 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,211 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"//*[@resource-id='com.example.android.contactmanager:id/contactNameEditText']","using":"xpath"}"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,563 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,563 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,563 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,563 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,563 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,563 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,563 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,563 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 87[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,563 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"57-gBPbJhmUmYK7oR3vkiJsSeO7258"[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,563 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Tue, 09 May 2017 03:42:26 GMT[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,563 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,563 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,564 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":{"ELEMENT":"3"},"sessionId":"d5e515a7-89d2-45ea-ad9b-5e1979c1be7f"}"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,564 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,564 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,564 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,564 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,564 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,564 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,564 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,564 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 87
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,564 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"57-gBPbJhmUmYK7oR3vkiJsSeO7258"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,564 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Tue, 09 May 2017 03:42:26 GMT
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,564 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,564 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,565 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,565 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 09:12:26,566 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=//*[@resource-id='com.example.android.contactmanager:id/contactNameEditText'], using=xpath}] Result: id: 3
+[main] 09:12:26,567 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: By.xpath: //*[@resource-id='com.example.android.contactmanager:id/contactNameEditText'] parameters: {"id":"3","value":["FZyRja"]}
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,568 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,568 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,568 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,568 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,569 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,571 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,571 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,572 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/3/value HTTP/1.1
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,572 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,572 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,572 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/3/value HTTP/1.1
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,572 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,572 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 29
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,573 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,573 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,573 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,573 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,573 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/3/value HTTP/1.1[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,573 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,573 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 29[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,573 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,573 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,573 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,573 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,573 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:26,573 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":["FZyRja"],"id":"3"}"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,873 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,873 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,873 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,873 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,873 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,873 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,873 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,873 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 76[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,873 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"4c-IMFp5YZtMr4waqHdsf3pKkUy/OU"[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,873 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Tue, 09 May 2017 03:42:32 GMT[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,873 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,873 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,873 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":true,"sessionId":"d5e515a7-89d2-45ea-ad9b-5e1979c1be7f"}"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,874 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,874 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,874 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,874 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,874 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,874 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,874 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,874 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 76
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,874 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"4c-IMFp5YZtMr4waqHdsf3pKkUy/OU"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,875 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Tue, 09 May 2017 03:42:32 GMT
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,875 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,875 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,875 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,875 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 09:12:32,876 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: By.xpath: //*[@resource-id='com.example.android.contactmanager:id/contactNameEditText'] param-2: {"id":"3","value":["FZyRja"]}] Result: sendKeysToElement:true
+[main] 09:12:32,877 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"xpath","value":"//*[@resource-id='com.example.android.contactmanager:id/contactPhoneEditText']"}
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,879 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,879 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,879 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,879 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,879 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element HTTP/1.1
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element HTTP/1.1
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 106
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 106[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:32,881 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"//*[@resource-id='com.example.android.contactmanager:id/contactPhoneEditText']","using":"xpath"}"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,732 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,732 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,732 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,732 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,732 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,732 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,732 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,732 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 87[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,732 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"57-jBsw1rHFceroHwCMOe4sMNo3TmA"[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,732 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Tue, 09 May 2017 03:42:33 GMT[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,733 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,733 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,733 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":{"ELEMENT":"4"},"sessionId":"d5e515a7-89d2-45ea-ad9b-5e1979c1be7f"}"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,733 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,733 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,733 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,734 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,734 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,734 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,734 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,734 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 87
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,734 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"57-jBsw1rHFceroHwCMOe4sMNo3TmA"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,734 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Tue, 09 May 2017 03:42:33 GMT
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,734 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,735 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,735 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,736 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 09:12:33,738 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=//*[@resource-id='com.example.android.contactmanager:id/contactPhoneEditText'], using=xpath}] Result: id: 4
+[main] 09:12:33,739 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: By.xpath: //*[@resource-id='com.example.android.contactmanager:id/contactPhoneEditText'] parameters: {"id":"4","value":["(729) 922 0890"]}
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,741 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,741 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,742 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,743 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,743 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,745 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,745 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,746 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/4/value HTTP/1.1
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,746 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,746 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,746 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/4/value HTTP/1.1
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,746 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,746 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 37
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,746 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,746 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,746 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,746 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,747 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/4/value HTTP/1.1[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,747 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,747 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 37[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,747 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,747 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,747 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,747 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,747 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:33,747 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":["(729) 922 0890"],"id":"4"}"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,968 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,968 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,968 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,968 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,968 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,968 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,968 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,968 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 76[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"4c-IMFp5YZtMr4waqHdsf3pKkUy/OU"[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Tue, 09 May 2017 03:42:40 GMT[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":true,"sessionId":"d5e515a7-89d2-45ea-ad9b-5e1979c1be7f"}"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 76
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"4c-IMFp5YZtMr4waqHdsf3pKkUy/OU"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Tue, 09 May 2017 03:42:40 GMT
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,969 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,970 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 09:12:40,971 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: By.xpath: //*[@resource-id='com.example.android.contactmanager:id/contactPhoneEditText'] param-2: {"id":"4","value":["(729) 922 0890"]}] Result: sendKeysToElement:true
+[main] 09:12:40,972 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"using":"xpath","value":"//*[@resource-id=\"com.example.android.contactmanager:id/contactEmailEditText\"]"}
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,976 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,976 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,976 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,976 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,976 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element HTTP/1.1
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element HTTP/1.1
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 108
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element HTTP/1.1[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 108[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:40,979 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"//*[@resource-id=\"com.example.android.contactmanager:id/contactEmailEditText\"]","using":"xpath"}"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,473 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,473 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,473 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,473 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,473 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,473 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,473 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,473 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 87[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,473 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"57-7xJV0g8WauqL5WoPyYtVHDwBNao"[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,473 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Tue, 09 May 2017 03:42:41 GMT[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,473 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,473 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,473 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":{"ELEMENT":"5"},"sessionId":"d5e515a7-89d2-45ea-ad9b-5e1979c1be7f"}"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,474 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,474 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,474 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,474 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,474 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,474 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,474 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,474 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 87
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,474 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"57-7xJV0g8WauqL5WoPyYtVHDwBNao"
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,474 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Tue, 09 May 2017 03:42:41 GMT
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,474 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,474 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,475 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,476 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 09:12:41,479 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=//*[@resource-id="com.example.android.contactmanager:id/contactEmailEditText"], using=xpath}] Result: id: 5
+[main] 09:12:41,480 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: By.xpath: //*[@resource-id="com.example.android.contactmanager:id/contactEmailEditText"] parameters: {"id":"5","value":["rOYAc@infostretch.com"]}
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,481 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,481 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,481 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,481 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,481 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/5/value HTTP/1.1
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/5/value HTTP/1.1
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 44
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/5/value HTTP/1.1[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 44[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:41,483 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":["rOYAc@infostretch.com"],"id":"5"}"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 76[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"4c-IMFp5YZtMr4waqHdsf3pKkUy/OU"[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Tue, 09 May 2017 03:42:49 GMT[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":true,"sessionId":"d5e515a7-89d2-45ea-ad9b-5e1979c1be7f"}"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 76
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"4c-IMFp5YZtMr4waqHdsf3pKkUy/OU"
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Tue, 09 May 2017 03:42:49 GMT
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,141 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,142 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding sendKeysToElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,142 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 09:12:49,143 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: By.xpath: //*[@resource-id="com.example.android.contactmanager:id/contactEmailEditText"] param-2: {"id":"5","value":["rOYAc@infostretch.com"]}] Result: sendKeysToElement:true
+[main] 09:12:49,153 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"using":"accessibility id","value":"Save"}
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,156 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,157 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,157 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,158 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,158 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,160 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/elements HTTP/1.1
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/elements HTTP/1.1
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 43
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/elements HTTP/1.1[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 43[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,161 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,162 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,162 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"value":"Save","using":"accessibility id"}"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,922 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,922 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,922 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,922 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,922 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,922 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,923 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,923 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 89[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,923 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"59-0PQOzm8G7KBOqCB37uRFq8z8ebI"[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,923 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Tue, 09 May 2017 03:42:49 GMT[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,923 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,923 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,923 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":[{"ELEMENT":"6"}],"sessionId":"d5e515a7-89d2-45ea-ad9b-5e1979c1be7f"}"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,923 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,924 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,924 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,924 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,924 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,924 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,924 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,924 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 89
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,924 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"59-0PQOzm8G7KBOqCB37uRFq8z8ebI"
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,924 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Tue, 09 May 2017 03:42:49 GMT
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,924 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,924 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,925 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding findElements on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,925 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 09:12:49,929 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=Save, using=accessibility id}] Result: [id: 6]
+[main] 09:12:49,930 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: [unknown locator] parameters: {"id":"6"}
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,931 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,931 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,931 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,931 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,931 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,934 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,934 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,934 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/6/click HTTP/1.1
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,934 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,934 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,934 DEBUG [org.apache.http.headers] http-outgoing-0 >> POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/6/click HTTP/1.1
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,934 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,934 DEBUG [org.apache.http.headers] http-outgoing-0 >> Content-Length: 10
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,934 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,934 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,934 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,935 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,935 DEBUG [org.apache.http.wire] http-outgoing-0 >> "POST /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f/element/6/click HTTP/1.1[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,935 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,935 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Content-Length: 10[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,935 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,935 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,935 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,935 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,935 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:49,935 DEBUG [org.apache.http.wire] http-outgoing-0 >> "{"id":"6"}"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.wire] http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 76[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"4c-IMFp5YZtMr4waqHdsf3pKkUy/OU"[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Tue, 09 May 2017 03:42:53 GMT[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":true,"sessionId":"d5e515a7-89d2-45ea-ad9b-5e1979c1be7f"}"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.headers] http-outgoing-0 << Vary: X-HTTP-Method-Override
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 76
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"4c-IMFp5YZtMr4waqHdsf3pKkUy/OU"
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Tue, 09 May 2017 03:42:53 GMT
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,085 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,086 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding clickElement on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,086 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[main] 09:12:53,087 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: [unknown locator] param-2: {"id":"6"}] Result: clickElement:true
+[main] 09:12:53,088 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Add New Contact - com.qmetry.qaf.automation.step.client is test:true
+[main] 09:12:53,088 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 09:12:53,104 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {description=Add Contact And Verify, groups=[Ljava.lang.String;@53fd0d10, lineNo=3, name=Add New Contact, referece=scenarios/suite1.bdd, sign=scenarios.suite1.bdd.Add New Contact()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]}
+[main] 09:12:53,122 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 09:12:53,126 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 09:12:53,126 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 09:12:53,127 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterClass
+[main] 09:12:53,128 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterClass - com.qmetry.qaf.automation.ui is test:false
+[main] 09:12:53,128 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 09:12:53,130 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterTest
+[main] 09:12:53,130 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing quit parameters: {}
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,132 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: default
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,132 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,133 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,133 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,133 DEBUG [org.apache.http.impl.execchain.MainClientExec] Stale connection check
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.wire] http-outgoing-0 << "[read] I/O error: Read timed out"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: set socket timeout to 10800000
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.impl.execchain.MainClientExec] Executing request DELETE /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f HTTP/1.1
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.impl.execchain.MainClientExec] Target auth state: UNCHALLENGED
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.impl.execchain.MainClientExec] Proxy auth state: UNCHALLENGED
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.headers] http-outgoing-0 >> DELETE /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f HTTP/1.1
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.headers] http-outgoing-0 >> Host: localhost:4723
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.headers] http-outgoing-0 >> Connection: Keep-Alive
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.headers] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.headers] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.wire] http-outgoing-0 >> "DELETE /wd/hub/session/d5e515a7-89d2-45ea-ad9b-5e1979c1be7f HTTP/1.1[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.wire] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,135 DEBUG [org.apache.http.wire] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:53,136 DEBUG [org.apache.http.wire] http-outgoing-0 >> "[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,771 DEBUG [org.apache.http.wire] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,772 DEBUG [org.apache.http.wire] http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,772 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,772 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,772 DEBUG [org.apache.http.wire] http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,772 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,772 DEBUG [org.apache.http.wire] http-outgoing-0 << "Content-Length: 76[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,772 DEBUG [org.apache.http.wire] http-outgoing-0 << "ETag: W/"4c-P/V6BfGdKXGdoxEtCc+LxiSKASM"[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,772 DEBUG [org.apache.http.wire] http-outgoing-0 << "Date: Tue, 09 May 2017 03:42:56 GMT[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,772 DEBUG [org.apache.http.wire] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,772 DEBUG [org.apache.http.wire] http-outgoing-0 << "[\r][\n]"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,772 DEBUG [org.apache.http.wire] http-outgoing-0 << "{"status":0,"value":null,"sessionId":"d5e515a7-89d2-45ea-ad9b-5e1979c1be7f"}"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,772 DEBUG [org.apache.http.headers] http-outgoing-0 << HTTP/1.1 200 OK
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,772 DEBUG [org.apache.http.headers] http-outgoing-0 << X-Powered-By: Express
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,773 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Origin: *
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,773 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,773 DEBUG [org.apache.http.headers] http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,773 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,773 DEBUG [org.apache.http.headers] http-outgoing-0 << Content-Length: 76
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,773 DEBUG [org.apache.http.headers] http-outgoing-0 << ETag: W/"4c-P/V6BfGdKXGdoxEtCc+LxiSKASM"
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,773 DEBUG [org.apache.http.headers] http-outgoing-0 << Date: Tue, 09 May 2017 03:42:56 GMT
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,773 DEBUG [org.apache.http.headers] http-outgoing-0 << Connection: keep-alive
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,773 DEBUG [org.apache.http.impl.execchain.MainClientExec] Connection can be kept alive indefinitely
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,774 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,775 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,779 DEBUG [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Closing connections idle longer than 0 SECONDS
+[Forwarding quit on session d5e515a7-89d2-45ea-ad9b-5e1979c1be7f to remote] 09:12:56,781 DEBUG [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: Close connection
+[main] 09:12:56,782 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: quit[ param-1: {}] Result: null
+[main] 09:12:56,782 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] UI-driver tear down complete...
+[main] 09:12:56,782 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterTest - com.qmetry.qaf.automation.ui is test:false
+[main] 09:12:56,782 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 09:12:56,814 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 09:12:56,832 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterSuit
+[main] 09:12:56,833 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterSuit - com.qmetry.qaf.automation.ui is test:false
+[main] 09:12:56,833 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 09:12:56,833 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 09:12:56,841 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done

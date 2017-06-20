@@ -1,0 +1,278 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "openAddContactScreen",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=accessibility id}"
+          ],
+          "result": "[id: 1]",
+          "subLogs": [],
+          "duration": 115
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Add Contact, using=accessibility id}"
+          ],
+          "result": "[id: 2]",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "[unknown locator]",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 960
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "generateRandomContactData",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "storeLastStepResultInto",
+      "args": [
+        "[new.contact]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "fillContactDetailsForm",
+      "args": [
+        "[${new.contact}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='com.example.android.contactmanager:id/contactNameEditText'], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 278
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id='com.example.android.contactmanager:id/contactNameEditText']",
+            "{\"id\":\"3\",\"value\":[\"GA6y2v\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 8199
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='com.example.android.contactmanager:id/contactPhoneEditText'], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 510
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id='com.example.android.contactmanager:id/contactPhoneEditText']",
+            "{\"id\":\"4\",\"value\":[\"(455) 806 7769\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 8443
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.example.android.contactmanager:id/contactEmailEditText\"], using=xpath}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 740
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.example.android.contactmanager:id/contactEmailEditText\"]",
+            "{\"id\":\"5\",\"value\":[\"C860B@infostretch.com\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 7934
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[save button]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Save, using=accessibility id}"
+          ],
+          "result": "[id: 6]",
+          "subLogs": [],
+          "duration": 238
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "[unknown locator]",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 3139
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyContactFromBean",
+      "args": [
+        "[${new.contact}]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "verifyContact",
+          "args": [
+            "[GA6y2v]"
+          ],
+          "result": "fail",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//android.widget.ListView//android.widget.LinearLayout, using=xpath}"
+              ],
+              "result": "[]",
+              "subLogs": [],
+              "duration": 124
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//android.widget.LinearLayout[0]/android.widget.TextView[1], using=xpath}"
+              ],
+              "result": "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 66 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11948', ip: '192.168.119.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.example.android.contactmanager, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.119.102:5555, platform=LINUX, deviceUDID=192.168.119.102:5555, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, desired={appPackage=com.example.android.contactmanager, appActivity=com.example.android.contactmanager.ContactManager, browser_name=, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.119.101:5555, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Google Nexus 5 - 5.0.0 - API 21 - 1080x1920, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 805d7c50-d62c-45f3-9fd4-5408dafe8613\n*** Element info: {Using=xpath, value=//android.widget.LinearLayout[0]/android.widget.TextView[1]}",
+              "subLogs": [],
+              "duration": 152
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user opens contact manager",
+      "type": "TestStepPass",
+      "duration": 12,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And open add contact screen",
+      "type": "TestStepPass",
+      "duration": 18526,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And generate random contact data",
+      "type": "TestStepPass",
+      "duration": 8,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And store into 'new.contact'",
+      "type": "TestStepPass",
+      "duration": 8,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When fill contact details form with '[email : C860B@infostretch.com,name : GA6y2v,phone : (455) 806 7769]'",
+      "type": "TestStepPass",
+      "duration": 30124,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on 'save button'",
+      "type": "TestStepPass",
+      "duration": 3381,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify contact '[email : C860B@infostretch.com,name : GA6y2v,phone : (455) 806 7769]' is displayed in list",
+      "type": "TestStepFail",
+      "screenshot": "test-results/09_May_2017_12_34_AM/img/Add New Contact_1sf5jie1nx9cs27717.png",
+      "duration": 3337,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "verify contact with name 'GA6y2v' is displayed in list",
+          "type": "TestStepFail",
+          "duration": 3319,
+          "threshold": 0,
+          "subCheckPoints": [
+            {
+              "message": "java.lang.NullPointerException",
+              "type": "Fail",
+              "duration": 0,
+              "threshold": 0,
+              "subCheckPoints": []
+            }
+          ]
+        },
+        {
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.NullPointerException\r\n\tat .Then verify contact '${new.contact}' is displayed in list(scenarios/suite1.bdd:12)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:398)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)\r\n\tat com.example.android.contactmanager.steps.StepsLibrary.isContactPresent(StepsLibrary.java:58)\r\n\tat com.example.android.contactmanager.steps.StepsLibrary.verifyContact_aroundBody6(StepsLibrary.java:37)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)\r\n\tat com.example.android.contactmanager.steps.StepsLibrary.verifyContact(StepsLibrary.java:35)\r\n\tat com.example.android.contactmanager.steps.StepsLibrary.verifyContactFromBean_aroundBody4(StepsLibrary.java:31)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.example.android.contactmanager.steps.StepsLibrary.verifyContactFromBean(StepsLibrary.java:30)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

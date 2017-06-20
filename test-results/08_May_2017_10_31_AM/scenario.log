@@ -1,0 +1,12 @@
+10:31:18 scenario.file.loc[Ljava.lang.String;@4f9a3314
+10:31:19 loading BDD file: scenarios/suite1.bdd
+10:31:19 total test found: 1
+10:31:19 
+
+Executing scenario: Add New Contact - Add Contact And Verify
+10:31:19 pkg: com.qmetry.qaf.automation.step
+10:31:19 pkg: com.example.android.contactmanager
+10:31:19 Found duplicate step to load [] with [lower] prority then []
+10:31:19 Invoking Teststep: Given user opens contact manager
+10:31:19 Completed Teststep: Given user opens contact manager
+10:31:19 Invoking Teststep: And open add contact screen

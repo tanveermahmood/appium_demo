@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">QAS Demo</th></tr><tr><td><a href="#t0">Appium Contact Manager</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">41,633</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">QAS Demo</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Appium Contact Manager &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qmetry.qaf.automation.step.client.Scenario</td><td><a href="#m0">Add New Contact</a></td><td rowspan="1">1493991220861</td><td rowspan="1">34215</td></tr></tbody></table><h2>Appium Contact Manager</h2><h3 id="m0">com.qmetry.qaf.automation.step.client.Scenario#Add New Contact</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user opens contact manager</div><div  class="teststepfail"><span class="teststepfail-label">T </span>And open add contact screen <a href="../img/Add New Contact_2m1czesg68d537550.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 20 seconds: Wait time out for Add COntact Button to be present
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11948', ip: '10.11.28.217', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>And generate random contact data</div><div  class="teststep"><span class="teststep-label">T </span>And store into 'new.contact'</div><div  class="teststep"><span class="teststep-label">T </span>When fill contact details form with '${new.contact}'</div><div  class="teststep"><span class="teststep-label">T </span>And click on 'save button'</div><div  class="teststep"><span class="teststep-label">T </span>Then verify contact '${new.contact}' is displayed in list</div></div></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Timed out after 20 seconds: Wait time out for Add COntact Button to be present
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11948&apos;, ip: &apos;10.11.28.217&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown
+	at .And open add contact screen(scenarios/suite1.bdd:7)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForPresent(QAFExtendedWebElement.java:502)
+	at com.example.android.contactmanager.pages.AddContactScreen.launchPage_aroundBody0(AddContactScreen.java:49)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.example.android.contactmanager.pages.AddContactScreen.launchPage(AddContactScreen.java:46)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+Caused by: java.lang.NullPointerException
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:390)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByName(RemoteWebDriver.java:469)
+	at org.openqa.selenium.By$ByName.findElements(By.java:295)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:351)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.isPresent(QAFExtendedWebElement.java:337)
+	at com.qmetry.qaf.automation.ui.util.QAFWebElementExpectedConditions$2.apply(QAFWebElementExpectedConditions.java:55)
+	at com.qmetry.qaf.automation.ui.util.QAFWebElementExpectedConditions$2.apply(QAFWebElementExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForPresent(QAFExtendedWebElement.java:502)
+	at com.example.android.contactmanager.pages.AddContactScreen.launchPage_aroundBody0(AddContactScreen.java:49)
+	at com.example.android.contactmanager.pages.AddContactScreen$AjcClosure1.run(AddContactScreen.java:1)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.example.android.contactmanager.pages.AddContactScreen.launchPage(AddContactScreen.java:46)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

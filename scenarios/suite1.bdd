@@ -1,0 +1,14 @@
+
+
+SCENARIO: Add New Contact
+META-DATA: {"description":"Add Contact And Verify","groups":["SMOKE"]}
+	
+	Given user opens contact manager
+	And open add contact screen
+	And generate random contact data
+	And store into 'new.contact'
+	When fill contact details form with '${new.contact}'
+	And click on 'save button'
+	
+	
+END

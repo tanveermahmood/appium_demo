@@ -1,0 +1,48 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "app-package": "com.example.android.contactmanager",
+      "app-activity": "com.example.android.contactmanager.ContactManager",
+      "deviceName": "192.168.119.101:5555",
+      "browser_name": "",
+      "appium-version": "1.2.3",
+      "newCommandTimeout": "120",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "javascriptEnabled": "true",
+      "driver.class": "io.appium.java_client.android.AndroidDriver",
+      "platformName": "Android",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "11",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "17-Apr-2017 02:20:41"
+    },
+    "run-parameters": {
+      "baseurl": "http://localhost:4723/wd/hub",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_111",
+      "os.arch": "amd64",
+      "host": "ICPL11948",
+      "os.name": "Windows 8",
+      "user.name": "harshit.trivedi",
+      "os.version": "6.2"
+    }
+  },
+  "startTime": 1493990929616,
+  "endTime": 1493990929701
+}
